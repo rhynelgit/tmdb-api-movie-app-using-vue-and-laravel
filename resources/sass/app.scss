@@ -1,0 +1,27 @@
+
+
+/* 
+| Using SMACSS Architecture - Scalable and Modular Architecture
+|	 for CSS is an approach to web development.
+|
+*/
+
+// Variables
+@import 'variables';
+
+// Base
+@import 'base';
+
+// Sayout
+@import 'layout';
+
+// State
+@import 'state';
+
+// Modules 
+@import 'modules/card';
+@import 'modules/pagination';
+
+// Customize
+@import 'customize/text';
+@import 'customize/list';

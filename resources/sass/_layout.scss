@@ -1,0 +1,138 @@
+.center-box {
+	background-color: #ffffff;
+	border: solid 0.11rem rgba(255, 255, 255, 0.349);
+	padding: 1.36rem 1.88rem 0.7rem 1.88rem;
+	box-shadow: $box-shadow-3!important;
+	-webkit-box-shadow: $box-shadow-3!important;
+	border-radius: 5px;
+	position: relative;
+	width: 890px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+	
+	.center-box-header {
+		h3 {
+			margin-bottom: 1px;
+			font-size: 19px;
+		}
+		
+		p {
+			color: #959595;
+		}
+	}
+	
+	.center-box-body::after {
+		content: '';
+		clear: both;
+	}
+	  
+	.center-box-body {
+		display: flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		margin: 0;
+		padding: 0 20px;
+		
+		.card-wrapper {
+			-webkit-box-flex: 0;
+			margin: 0;
+			cursor: pointer;
+			margin: 10px 0;
+		}
+				
+		.card-wrapper::after {
+			content: '';
+			clear: both;
+			border: 4px white solid;
+		}
+		
+	}
+	
+	
+
+}
+
+.wid-1 {
+	-ms-flex: 0 0 $wid1;
+	flex: 0 0 $wid1;
+	max-width: $wid1;
+}
+
+.wid-2 {
+	-ms-flex: 0 0 $wid2;
+	flex: 0 0 $wid2;
+	max-width: $wid2;
+}
+
+.wid-3 {
+	-ms-flex: 0 0 $wid3;
+	flex: 0 0 $wid3;
+	max-width: $wid3;
+}
+
+.wid-4 {
+	-ms-flex: 0 0 $wid4;
+	flex: 0 0 $wid4;
+	max-width: $wid4;
+}
+
+.wid-5 {
+	-ms-flex: 0  0 $wid5;
+	flex: 0 0 $wid5;
+	max-width: 0 $wid5;
+}
+
+.wid-6 {
+	-ms-flex: 0 0 $wid6;
+	flex: 0 0 $wid6;
+	max-width: $wid6;
+}
+
+.wid-7 {
+	-ms-flex: 0 0 $wid7;
+	flex: 0 0 $wid7;
+	max-width: $wid7;
+}
+
+.wid-8 {
+	-ms-flex: 0 0 $wid8;
+	flex: 0 0 $wid8;
+	max-width: $wid8;
+}
+
+.wid-9 {
+	-ms-flex: 0 0 $wid9;
+	flex: 0 0  $wid9;
+	max-width: $wid9;
+}
+
+.wid-10 {
+	-ms-flex: 0 0 $wid10;
+	flex: 0 0  $wid10;
+	max-width: $wid10;
+}
+
+.wid-11 {
+	-ms-flex: 0 0 $wid11;
+	flex: 0 0 $wid11;
+	max-width: $wid11;
+}
+	
+.wid-12 {
+	-ms-flex: 0 0 $wid12;
+	flex: 0 0 $wid12;
+	max-width: $wid12;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.center-box {
+		border: none!important;
+		border-radius: 0%!important;
+		box-shadow: none!important;
+		-webkit-box-shadow: none!important;
+		border-radius: none!important;
+	}	
+}

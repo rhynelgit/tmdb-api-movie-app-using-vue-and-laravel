@@ -1,0 +1,42 @@
+.card {	
+	padding: 10px 9px;
+	position: relative;
+	transition: .2s ease-out;
+	
+	.card-badge {
+		position: absolute!important;
+		right: 9px;
+		top: 10px;
+		background:#e9221bd8;
+		color: antiquewhite;
+		padding: 10px;
+		border-radius: 0px 2px 0px 7px;
+	}
+	
+	.card-img{
+		width: 100%;
+		border-radius: 3px;
+		box-shadow: $box-shadow;
+	}
+	
+	.card-title {
+		font-weight: 400;
+		font-size: 13px!important;
+		height: 55px;
+	}
+	
+	.card-date {
+		position: absolute!important;
+		left: 9px;
+		bottom: 85px;
+		background: green;
+		color: antiquewhite;
+		padding: 3px 8px;
+		border-radius: 0px 2px 3px 7px;
+	}
+	
+	&:hover {
+		opacity: .8;
+		transition: .1s ease-in;
+	}
+}
